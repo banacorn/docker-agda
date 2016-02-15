@@ -1,5 +1,4 @@
-# ought to be based on haskell:7.10.3, but there's no such images yet
-FROM        haskell:7.10.2
+FROM        haskell:7.10.3
 MAINTAINER  Ting-Yan Lai <banacorn@gmail.com>
 
 RUN cabal update
