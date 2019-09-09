@@ -1,5 +1,5 @@
 FROM        haskell:7.8.4
-MAINTAINER  Ting-Yan Lai <banacorn@gmail.com>
+MAINTAINER  Ting-Gian LUA <banacorn@gmail.com>
 
 RUN cabal update
 RUN cabal install cpphs-1.18.6
